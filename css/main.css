@@ -96,9 +96,44 @@ header nav a:hover {
   color: var(--neutral-dark-color);
 }
 
-/* showcase */
+/* hero banner */
 
+h2 {
+  font-size: 1.5rem;
+  color: var(--neutral-dark-color);
+  margin: 0;
+  padding: 0;
+}
 
+p {
+  font-size: 1rem;
+  margin-top: .5em;
+  line-height: 1.5;
+  color: var(--neutral-dark-color);
+}
+
+.img-flex {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  margin: 0;
+  margin-top: 2rem;
+  padding: .3rem 1rem;
+  transform: translate(8px, 0);
+  position: absolute;
+  max-width: 15em;
+  overflow: hidden;
+  justify-content: unset;
+}
+
+main {
+  position: relative;
+}
+
+/* showcase
 
 #showcase {
   color: #fff;
@@ -136,7 +171,7 @@ header nav a:hover {
 
 #article .meta .category {
   margin-top: 0.4rem;
-}
+} */
 
 h3 a {
   color: var(--med-color);
