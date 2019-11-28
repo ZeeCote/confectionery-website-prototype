@@ -79,7 +79,7 @@ header nav li {
 }
 
 .current {
- font-weight: bold;
+  font-weight: bold;
 }
 
 header nav a {
@@ -131,46 +131,6 @@ p {
 main {
   position: relative;
 }
-
-/* showcase
-
-#showcase {
-  color: #fff;
-  background: var(--neutral-dark-color);
-  padding: 2rem;
-  position: relative;
-}
-
-#showcase::before {
-  content: '';
-  background: url('/images/pink-bg.png') no-repeat center center/cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.6;
-}
-
-#showcase .showcase-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-}
-
-#showcase .showcase-content {
-  z-index: 1;
-}
-
-#showcase .showcase-content p {
-  margin-bottom: 1rem;
-}
-
-#article .meta .category {
-  margin-top: 0.4rem;
-} */
 
 h3 a {
   color: var(--med-color);
@@ -305,7 +265,7 @@ h3 a:hover {
     grid-column: 1;
   }
 
-/* photo galary */
+  /* photo galary */
 
   .photo:nth-child(2),
   .photo:nth-child(5) {
