@@ -35,7 +35,7 @@ html {
   border: none;
   background: var(--light-color);
   color: var(--neutral-dark-color);
-  padding: 0.5rem 1.5rem;
+  padding: .5rem 1.5rem;
   text-decoration: none;
 }
 
@@ -260,12 +260,12 @@ h3 a:hover {
 .footer a {
   color: #fff;
   text-decoration: none;
-  font-weight: 300;
+  font-weight: light;
 }
 
 .footer a:hover {
   color: var(--light-color);
-  font-weight: 400;
+  font-weight: regular;
 }
 
 .links {
@@ -357,11 +357,11 @@ h3 a:hover {
     justify-content: space-between;
     align-items: center;
     background: #eee;
-    padding: 0.4rem;
+    padding: .4rem;
   }
 
   #article .meta .category {
-    margin-top: 0.4rem;
+    margin-top: .4rem;
   }
 
   .photo:nth-child(5) {
