@@ -59,13 +59,12 @@ header {
   background-color: var(--neutral-light-color);
   text-align: center;
   color: #fff;
-  position: sticky;
 }
 
 header h1 {
   margin: 0 0 .5rem;
   font-size: 1.7rem;
-  font-weight: 600;
+  font-weight: bold;
   border-bottom: 2px var(--light-color) solid;
 }
 
@@ -80,7 +79,7 @@ header nav li {
 }
 
 .current {
- font-weight: regular;
+ font-weight: bold;
 }
 
 header nav a {
@@ -88,7 +87,7 @@ header nav a {
   padding: .5em .75em;
   color: #fff;
   text-decoration: none;
-  font-weight: 300;
+  font-weight: lighter;
 }
 
 header nav a:hover {
@@ -203,7 +202,7 @@ h3 a:hover {
   background: #fff;
   padding: 1rem;
   color: var(--neutral-dark-color);
-  font-weight: 300;
+  font-weight: lighter;
 }
 
 #home-articles .articles-containers {
@@ -260,12 +259,12 @@ h3 a:hover {
 .footer a {
   color: #fff;
   text-decoration: none;
-  font-weight: light;
+  font-weight: lighter;
 }
 
 .footer a:hover {
   color: var(--light-color);
-  font-weight: regular;
+  font-weight: normal;
 }
 
 .links {
