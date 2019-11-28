@@ -96,12 +96,7 @@ header nav a:hover {
 
 /* showcase */
 
-.card {
-  background: #fff;
-  padding: 1rem;
-  color: var(--neutral-dark-color);
-  font-weight: 300;
-}
+
 
 #showcase {
   color: #fff;
@@ -112,7 +107,7 @@ header nav a:hover {
 
 #showcase::before {
   content: '';
-  background: url('/images/luis-guerrero-2EeKIdJ8e10-unsplash.jpg') no-repeat center center/cover;
+  background: url('/images/pink-bg.png') no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -166,6 +161,13 @@ h3 a:hover {
 }
 
 /* Home Articles */
+
+.card {
+  background: #fff;
+  padding: 1rem;
+  color: var(--neutral-dark-color);
+  font-weight: 300;
+}
 
 #home-articles .articles-containers {
   grid-template-columns: 1fr;
