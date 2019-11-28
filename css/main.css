@@ -1,9 +1,9 @@
 :root {
   --xlight-color: #ffebf2;
-  --light-color: #FDD7E4;
-  --med-color: #FAAFBE;
-  --neutral-dark-color: #4C4646;
-  --neutral-light-color: #B6B6B4;
+  --light-color: #fdd7e4;
+  --med-color: #faafbe;
+  --neutral-dark-color: #4c4646;
+  --neutral-light-color: #b6b6b4;
   --neutral-xlight-color: #ededeb;
 }
 
@@ -27,7 +27,7 @@ html {
 }
 
 .py-2 {
-  padding: 2rem 2rem
+  padding: 2rem;
 }
 
 .btn {
@@ -80,7 +80,7 @@ header nav li {
 }
 
 .current {
- font-weight: 400;
+ font-weight: regular;
 }
 
 header nav a {
