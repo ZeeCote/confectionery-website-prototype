@@ -30,19 +30,6 @@ html {
   padding: 2rem;
 }
 
-.btn {
-  display: inline-block;
-  border: none;
-  background: var(--light-color);
-  color: var(--neutral-dark-color);
-  padding: .5rem 1.5rem;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background-color: var(--med-color);
-}
-
 body {
   margin: 0;
   background-color: var(--neutral-xlight-color);
@@ -141,21 +128,6 @@ h3 a:hover {
   color: var(--neutral-light-color);
 }
 
-.bg-dark {
-  background-color: var(--neutral-dark-color);
-  color: #fff;
-}
-
-.bg-primary {
-  background: var(--xlight-color);
-  color: var(--neutral-dark-color);
-}
-
-.bg-secondary {
-  background: var(--light-color);
-  color: var(--neutral-dark-color);
-}
-
 /* Home Articles */
 
 .card {
@@ -167,6 +139,10 @@ h3 a:hover {
 
 #home-articles .articles-containers {
   grid-template-columns: 1fr;
+}
+
+.no-img {
+  background-color: var(--xlight-color);
 }
 
 /* image galary */
